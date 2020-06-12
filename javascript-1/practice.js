@@ -52,33 +52,40 @@ else {return 'the number is even'}
 
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
-//Code Here
-
+function iLove (name, love) {
+	return `${name} loves ${love}`
+  }
+  
 //////////////////PROBLEM 8////////////////////
 
 // Create a copy of the faveColors array called 'colorCopy' using slice.
 const faveColors = ['red', 'green', 'black']
 
-//Code Here
+let colorCopy = faveColors.slice ()
 
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push.
 
-//Code Here
+colorCopy.push ('brown')
 
 //////////////////PROBLEM 10////////////////////
 
 // Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
 const numbers = [1, 2, 3, 4, 5]
 
-//Code Here
+let middleNums = [2,3,4]
 
 //////////////////PROBLEM 11////////////////////
 
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
 
-//Code Here
+me = {
+	firstName: 'patrick',
+	state: 'utah',
+	age: 31,
+greeter:function () { return'hello, my name is patrick and i live in utah'}}
+
 
 //////////////////PROBLEM 12////////////////////
 
