@@ -91,7 +91,7 @@ greeter:function () { return'hello, my name is patrick and i live in utah'}}
 
 // Create a function called 'bigOrSmall' that takes in one parameter, 'arr', which will be an array of numbers. Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. If it is, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function.
 
-// Code here
+
 
 //////////////////PROBLEM 13////////////////////
 
@@ -109,33 +109,54 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // First, use .map to create a new array that doubles each number. Call the new array 'doubled'.
 
-// Code Here
+const doubled = myNumbers.map(function (element, index, array)
+{return element * 2
+
+})
+doubled
 
 //////////////////PROBLEM 15////////////////////
 
 // Now, use .filter to create a new array containing any numbers that are greater than 100. Call the new array 'filtered'. 
 
-// Code Here
+const filtered = myNumbers.filter(function (element, index, array){
+	if (element >100) {return true}
+  })
+  
+  filtered
 
 //////////////////PROBLEM 16////////////////////
 
 // Next, use reduce to get the total of the numbers in the array summed together. Store the total in a new variable named 'total'. 
 
-// Code Here
+const total = myNumbers.reduce (function (acc,element,index,array){
+	return (acc+=element)
+  
+  }, 0)
 
 //////////////////PROBLEM 17////////////////////
 
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
 
-// Code Here
+
+myNumbersIndex =[]
+myNumbers.forEach (function (element, index, array) {
+ myNumbersIndex.push(index)
+})
+
+
 
 //////////////////PROBLEM 18////////////////////
 
 // Did you know that George Foreman has five sons named George? Go ahead and change everyone's name in the notGeorge array to George using .map. Store the resulting array in a variable named 'forTheLoveOfGeorge'.
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
-// Code Here
+let forTheLoveOfGeorge = notGeorge.map(function(element, index, array){
 
+return element = 'George'
+})
+
+console.log(forTheLoveOfGeorge)
 //////////////////PROBLEM 19////////////////////
 
 // Using the people array, filter out everyone that isn't a friend into a new array called 'enemies'. Use .filter(). 
