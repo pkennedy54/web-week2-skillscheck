@@ -31,20 +31,24 @@ h2 {
     color: #F2F393;
     font-size: 45px;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 50px;
     }
     
     h3.box-container {
         display: flex;  
-    justify-content: center;  }
+        justify-content: center;
+    }
 
-      #box1 {height: 100px;
+      #box1 
+      {height: 100px;
         width: 100px;
         background-color: #A0FBCE;
         border-radius: 10%;
       margin: 0 35px;}
+    
 
-      #box2 {height: 100px;
+      #box2 
+      {height: 100px;
         width: 100px;
         background-color: #A0FBCE;
         border-radius: 10%;
@@ -56,5 +60,47 @@ h2 {
         background-color: #A0FBCE;
         border-radius: 10%;
       margin: 0 35px;}
-
       
+      .box-containers {
+        display: flex;
+        justify-content: center;}     
+        
+
+
+
+#box4 {
+  height: 100px;
+  width: 200px;
+  background-color: orange;
+  margin: 0 45px;
+
+}
+  #box5 {
+    height: 100px;
+  width: 200px;
+  background-color: orange;
+  margin:0 45px ;
+  }
+
+.last-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+#textbox {
+  height: 200px;
+  width: 200px;
+  overflow: scroll;
+}
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer{
+height: 75px;
+width: 100vw;
+background-color: navy;
+  }
+ 
