@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: inline-flexbox;
+}
+
+#main-header h1{
+    background-color: gray;
+    color:white ;
+    display: flex;
+    justify-content: flex-start;
+    font-family: arial;
+    font-size: 20px;
+    
+    
+
+}
+#secondary {
+  display:flex;
+  justify-content: flex-end;
+  font-family: arial;
+color: white;
+background-color: gray;
+
+
+}
+
+h2 {
+    background-color:black;
+    height: 150px;
+    color: #F2F393;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 75px;
+    }
+    
+    h3.box-container {
+        display: flex;  
+    justify-content: center;  }
+
+      #box1 {height: 100px;
+        width: 100px;
+        background-color: #A0FBCE;
+        border-radius: 10%;
+      margin: 0 35px;}
+
+      #box2 {height: 100px;
+        width: 100px;
+        background-color: #A0FBCE;
+        border-radius: 10%;
+      margin: 0 35px;}
+
+      #box3
+      {height: 100px;
+        width: 100px;
+        background-color: #A0FBCE;
+        border-radius: 10%;
+      margin: 0 35px;}
+
+      
